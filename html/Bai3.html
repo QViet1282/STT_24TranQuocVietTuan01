@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var dolphinsScore = [0, 112, 101]
+        var koalasScore = [0, 95, 123]
+        const avgDolphin = (dolphinsScore[0] + dolphinsScore[1] + dolphinsScore[2]) / 3
+        const avgKoala = (koalasScore[0] + koalasScore[1] + koalasScore[2]) / 3
+        if (avgDolphin < 100 && avgKoala < 100)
+            console.log("Ca hai doi khong danh duoc cup")
+        else if (avgDolphin == avgKoala)
+            console.log("Hai doi hoa")
+        else if (avgDolphin > avgKoala)
+            console.log("Dolphin chien thang Koala va gianh duoc cup");
+        else
+            console.log("Koala chien thang Dolphin va danh duoc cup");
+        // console.log(avgDolphin);
+        // console.log(avgKoala);
+    </script>
+</body>
+
+</html>
